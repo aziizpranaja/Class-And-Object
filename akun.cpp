@@ -58,7 +58,7 @@ int main()
 	
 	cout << endl;
 	Account1.Kredit(2000);
-	Account2.Kredit(1300);
+	Account2.Kredit(3000);
 	cout << "kredit akun 1 : Rp. 2000" << endl;
 	cout << "kredit akun 2 : Rp. 3000" << endl;
 	
