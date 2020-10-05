@@ -75,6 +75,6 @@ int main()
 	
 	cout <<endl << "setelah debit :" << endl <<endl;
 	cout << "saldo terakhir akun 1 : Rp. "<< Account1.getAccountBalance() <<",-"<< endl;
-	cout << "saldo terakhir akun2 : Rp. "<< Account2.getAccountBalance() <<",-"<< endl;
+	cout << "saldo terakhir akun 2 : Rp. "<< Account2.getAccountBalance() <<",-"<< endl;
 	
 }
