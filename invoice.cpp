@@ -56,7 +56,7 @@ class Invoice
 	if(number.length()>25)
 	{
 		partNumber=number.substr(0,25);
-		cout << "Name \"" << number <<"\" exceeds maximum length (25).\n"<< "Limiting partNumber to first 25 characters.\n" << endl;
+		cout << "Name \"" << number  << endl;
 	}
  }
  void Invoice::setPartDescription(string description)
@@ -68,7 +68,7 @@ class Invoice
 	if(description.length()>25)
 	{
 		partDescription=description.substr(0,25);
-		cout << "Name \"" << description <<"\" exceeds maximum length (25).\n"<< "Limiting partNumber to first 25 characters.\n" << endl;
+		cout << "Name \"" << description << endl;
 	}
  }
  void Invoice::setItemQuantity(int quantity)
@@ -80,7 +80,7 @@ class Invoice
 	else
 	{
 		itemQuantity=0;
-		cout<<"stik habis"<<endl;
+		cout<<"stok habis"<<endl;
 	}
  }
  void Invoice::setItemPrice(int price)
