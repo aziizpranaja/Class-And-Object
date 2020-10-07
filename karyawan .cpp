@@ -42,7 +42,7 @@ void Karyawan::setNamaDepan(string depan)
 	if (depan.length()>25)
 	{
 		NamaDepan=depan.substr(0,25);
-	  cout << "Name \"" << depan <<"\" exceeds maximum length (25).\n"<< "Limiting firstName to first 25 characters.\n" << endl;
+	  cout << "Name \"" << depan  << endl;
 	}
 }
 void Karyawan::setNamaBelakang(string belakang)
@@ -54,7 +54,7 @@ void Karyawan::setNamaBelakang(string belakang)
 	if(belakang.length()>25)
 	{
 		NamaBelakang=belakang.substr(0,25);
-		cout << "Name \"" << belakang <<"\" exceeds maximum length (25).\n"<< "Limiting firstName to first 25 characters.\n" << endl;
+		cout << "Name \"" << belakang  << endl;
 	}
 }
 void Karyawan::setGajiBulanan(int gaji)
