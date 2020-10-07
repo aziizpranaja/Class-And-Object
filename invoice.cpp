@@ -126,10 +126,12 @@ class Invoice
  	cout<<"Total Item : "<<Invoice1.getItemQuantity()<<endl;
  	cout<<"Harga Per-Item : "<<Invoice1.getItemPrice()<<endl;
  	cout<<"Harga Total Invoice 1 : "<<Invoice1.getInvoiceAmmount()<<endl;
+	 
+	 cout<<endl;
  	
  	cout<<"kode invoice 2 : "<<Invoice2.getPartNumber()<<endl;
  	cout<<"Deskripsi : "<<Invoice2.getPartDescription()<<endl;
  	cout<<"Total Item : "<<Invoice2.getItemQuantity()<<endl;
  	cout<<"Harga Per-Item : "<<Invoice2.getItemPrice()<<endl;
- 	cout<<"Harga Total Invoice 1 : "<<Invoice2.getInvoiceAmmount()<<endl;
+ 	cout<<"Harga Total Invoice 2 : "<<Invoice2.getInvoiceAmmount()<<endl;
  }
